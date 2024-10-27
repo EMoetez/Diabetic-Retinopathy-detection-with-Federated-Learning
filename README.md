@@ -7,7 +7,7 @@ This project explores a federated learning approach for detecting diabetic retin
 Diabetic retinopathy is a vision-threatening condition affecting people with diabetes. This approach integrates **Convolutional Neural Networks (CNNs)** and **Federated Learning** to enable collaborative learning without compromising data privacy. The project includes:
 - Multi-class classification model trained on retina images
 - Comparison between centralized and federated learning approaches
-- Pretrained CNNs including VGG16, VGG19, and ResNet50
+- Pretrained CNNs including VGG19 and ResNet50
 - Evaluation of model performance in federated setups
 
 ## Methodology
