@@ -40,6 +40,7 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
    - **Dataset**: Retina images labeled by DR severity levels (e.g., No DR, Mild, Moderate, Proliferative, and Severe).
    - **Data Augmentation**: Synthetic sample generation via transformations (e.g., rotation, flip).
    - **Preprocessing**: Applied contrast enhancement and denoising for optimal model input.
+ <br/><br/>
      ![Screenshot_20240329_012438](https://github.com/user-attachments/assets/441d9184-ef08-47df-b014-d80da7fdff66)
 ![Screenshot_20240210_085956](https://github.com/user-attachments/assets/9ef26218-da06-4ac5-b01c-cfbfa44f57e3)
 
@@ -47,12 +48,14 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
    - Custom CNN model for baseline testing
    - Comparison of pretrained models: VGG19, and ResNet50
    - Final federated model built on ResNet50 architecture for collaborative training
+     <br/><br/>
      ![RESNET50RESULTS](https://github.com/user-attachments/assets/4a962c61-4380-4a5e-af53-33dd7ee91016)
 
 
 ### 3. Federated Learning Implementation
    - **Data Distribution**: Simulated across multiple federated institutions
    - **Training Process**: Cyclical model updates with local training and global aggregation
+     <br/><br/>
      ![FL_approach](https://github.com/user-attachments/assets/6a4ee531-5f83-487f-a8a6-49df59daa719)
 
 
