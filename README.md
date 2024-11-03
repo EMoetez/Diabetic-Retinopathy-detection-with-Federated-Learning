@@ -50,6 +50,8 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
 ## Results
 
 ResNet50 showed the best performance in both centralized and federated setups. Federated learning demonstrated potential for enhanced data privacy without significant loss of accuracy, though it required more rounds for convergence compared to centralized learning.
+ <br/><br/>
+
 <img src="https://github.com/user-attachments/assets/4a962c61-4380-4a5e-af53-33dd7ee91016" alt="RESNET50RESULTS" width="300"/>
 
 
