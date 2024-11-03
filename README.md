@@ -31,7 +31,7 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
    - **Preprocessing**: Applied contrast enhancement and denoising for optimal model input.
  <br/><br/>
  <div>
- <img src="https://github.com/user-attachments/assets/441d9184-ef08-47df-b014-d80da7fdff66" alt="Image description" width="500"/>
+ <img src="https://github.com/user-attachments/assets/441d9184-ef08-47df-b014-d80da7fdff66" alt="Image description" width="500" height="300"/>
  <img src="https://github.com/user-attachments/assets/9ef26218-da06-4ac5-b01c-cfbfa44f57e3" alt="Image description" width="500"/><div/>
 
 ### 2. Model Selection and Training
