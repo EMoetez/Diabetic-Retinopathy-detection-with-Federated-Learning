@@ -4,26 +4,15 @@ This project explores a federated learning approach for detecting diabetic retin
 ![Screenshot_20240207_061832](https://github.com/user-attachments/assets/01724a18-7bfd-4e7a-9185-4c07114927d4)
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Project Structure](#Project-Overview)
-3. [Methodology](#methodology)
-4. [Results](#results)
-5. [Requirements](#Requirements)
+1. [Project Structure](#Project-Overview)
+2. [Methodology](#methodology)
+3. [Results](#results)
+4. [Requirements](#Requirements)
+5. [Installation](#installation)
 6. [Furure work](#Future-work)
 7. [License](#license)
 
-## Installation
 
-### Step 1: Clone the repository
-   ```bash
-   git clone https://github.com/EMoetez/Diabetic-Retinopathy-detection-with-Federated-Learning.git
-   cd Diabetic-Retinopathy-detection-with-Federated-Learning
-   ```
-### Step 2: Install Dependencies
-Install all required dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 
 ## Project Overview
@@ -41,8 +30,9 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
    - **Data Augmentation**: Synthetic sample generation via transformations (e.g., rotation, flip).
    - **Preprocessing**: Applied contrast enhancement and denoising for optimal model input.
  <br/><br/>
-     ![Screenshot_20240329_012438](https://github.com/user-attachments/assets/441d9184-ef08-47df-b014-d80da7fdff66)
-![Screenshot_20240210_085956](https://github.com/user-attachments/assets/9ef26218-da06-4ac5-b01c-cfbfa44f57e3)
+ <div>
+ <img src="https://github.com/user-attachments/assets/441d9184-ef08-47df-b014-d80da7fdff66" alt="Image description" width="500"/>
+ <img src="https://github.com/user-attachments/assets/9ef26218-da06-4ac5-b01c-cfbfa44f57e3" alt="Image description" width="500"/><div/>
 
 ### 2. Model Selection and Training
    - Custom CNN model for baseline testing
@@ -69,8 +59,21 @@ ResNet50 showed the best performance in both centralized and federated setups. F
 - TensorFlow and Keras
 - Kaggle Notebooks (for development environment)
 
+## Installation
+
+### Step 1: Clone the repository
+   ```bash
+   git clone https://github.com/EMoetez/Diabetic-Retinopathy-detection-with-Federated-Learning.git
+   cd Diabetic-Retinopathy-detection-with-Federated-Learning
+   ```
+### Step 2: Install Dependencies
+Install all required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ## Future work
-In the next steps, we aim to improve the results, optimize the code and use different dataset like "APTOS 2019" dataset. In addition, we will work on implementing the federated learning process with more lightweight and friendly frameworks like Flower. This way, we hope to get faster and more accurate results.
+In the next steps, we aim to improve the results, optimize the code and use different dataset like "APTOS 2019" dataset. In addition, we will work on implementing the federated learning process with more lightweight and friendly frameworks like Flower. This way, we hope to get faster and more accurate results. I am excited to explore further improvements and new features for this project! Contributions, feedback, and collaborative efforts are welcome. If you're interested in working together or have ideas to enhance this project, please feel free to reach out.
 
 ## License
 This project is licensed under the MIT License.
