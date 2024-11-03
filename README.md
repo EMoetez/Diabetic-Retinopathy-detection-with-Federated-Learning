@@ -6,11 +6,12 @@ This project explores a federated learning approach for detecting diabetic retin
 ## Table of Contents
 1. [Project Structure](#Project-Overview)
 2. [Methodology](#methodology)
-3. [Results](#results)
-4. [Requirements](#Requirements)
-5. [Installation](#installation)
-6. [Furure work](#Future-work)
-7. [License](#license)
+3. [Federated Learning Approach](#Federated-Learning-Approach)
+4. [Results](#results)
+5. [Requirements](#Requirements)
+6. [Installation](#installation)
+7. [Furure work](#Future-work)
+8. [License](#license)
 
 
 
@@ -35,16 +36,13 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
  <img src="https://github.com/user-attachments/assets/9ef26218-da06-4ac5-b01c-cfbfa44f57e3" alt="Image description" width="500"/><div/>
 
 ### 2. Model Selection and Training
-   - Custom CNN model for baseline testing
-   - Comparison of pretrained models: VGG19, and ResNet50
+   - Comparison of pretrained models: VGG19 and ResNet50
    - Final federated model built on ResNet50 architecture for collaborative training
      <br/><br/>
-     ![RESNET50RESULTS](https://github.com/user-attachments/assets/4a962c61-4380-4a5e-af53-33dd7ee91016)
 
-
-### 3. Federated Learning Implementation
-   - **Data Distribution**: Simulated across multiple federated institutions
-   - **Training Process**: Cyclical model updates with local training and global aggregation
+## Federated Learning Approach
+   - **Data Distribution**: Simulated across multiple federated institutions using Tensorflow federated framework.
+   - **Training Process**: Cyclical model updates with local training and global aggregation with Federated averaging
      <br/><br/>
      ![FL_approach](https://github.com/user-attachments/assets/6a4ee531-5f83-487f-a8a6-49df59daa719)
 
@@ -52,6 +50,8 @@ Diabetic retinopathy is a vision-threatening condition affecting people with dia
 ## Results
 
 ResNet50 showed the best performance in both centralized and federated setups. Federated learning demonstrated potential for enhanced data privacy without significant loss of accuracy, though it required more rounds for convergence compared to centralized learning.
+<img src="https://github.com/user-attachments/assets/4a962c61-4380-4a5e-af53-33dd7ee91016" alt="RESNET50RESULTS" width="300"/>
+
 
 ## Requirements
 
